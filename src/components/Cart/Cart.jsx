@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Cart = ({ courses , price , credit, creditRemain}) => {
 
     return (
-        <div className="w-3/12 bg-white p-6 space-y-4 rounded-md">
+        <div className=" w-10/12 mx-auto mt-5 md:mt-0 md:w-3/12 bg-white p-6 space-y-4 rounded-md">
             <h1 className='text-[#2F80ED] font-bold text-[18px]'>Credit Hour Remaining {creditRemain} hr</h1>
             <hr />
 
