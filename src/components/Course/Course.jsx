@@ -24,7 +24,7 @@ const Course = ({ course ,handelSelect ,sumOfPrice}) => {
 
             <button 
             onClick={()=> {
-                handelSelect(course_name,price);
+                handelSelect(course_name,credit);
                 sumOfPrice(price)
             }} 
             className='absolute inset-x-0 bottom-2 rounded-lg w-11/12 mx-auto py-2 my-2 text-white bg-[#2F80ED]'>Select</button>

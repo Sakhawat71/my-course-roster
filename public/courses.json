@@ -10,7 +10,7 @@
     {
         "id": 2,
         "course_name": "Introduction to Algorithms",
-        "credit": 4,
+        "credit": 5,
         "price": 299.99,
         "course_details": "Fundamental, teaching problem-solving and efficient computation, the basis for computer science.",
         "img": "https://imagizer.imageshack.com/img923/4611/P40w7w.png"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "course_name": "Introduction to C++ for DSA",
-        "credit": 3,
+        "credit": 4,
         "price": 199.99,
         "course_details": "C++ for DSA is crucial as it provides a strong foundation for data structures and algorithms.",
         "img": "https://imagizer.imageshack.com/img923/3269/udwUet.png"
