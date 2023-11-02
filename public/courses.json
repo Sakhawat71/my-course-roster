@@ -2,7 +2,7 @@
     {
         "id": 1,
         "course_name": "Introduction to C Programming",
-        "credit": 4,
+        "credit": 2,
         "price": 200,
         "course_details": "Fundamental, teaching syntax, logic, and problem-solving crucial for software development.",
         "img": "https://imagizer.imageshack.com/img924/2442/VNm7oF.png"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "course_name": "AWS, Cloud Computing",
-        "credit": 3,
+        "credit": 1,
         "price": 199,
         "course_details": "AWS knowledge empowers businesses to scale, enhance efficiency while reducing costs.",
         "img": "https://imagizer.imageshack.com/img922/1672/5RKP0h.png"

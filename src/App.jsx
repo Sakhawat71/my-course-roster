@@ -3,7 +3,8 @@ import './App.css'
 import Cart from './components/Cart/Cart'
 import Courses from './components/Courses/Courses'
 import Header from './components/Header/Header'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -14,25 +15,43 @@ function App() {
     const [selectedCourses, setSelectedCourses] = useState([]);
 
     const handelSelect = (course) => {
-        // setCredit(course.credit)
+
         const isExist = selectedCourses.find(item => item.id === course.id);
-        console.log(course.credit, 'clicked totalCredit')
-        
+
         let totalPrice = course.price;
         let totalCredit = course.credit;
 
-        if (isExist ) {
-            return alert('exist');
+        if (isExist) {
+            toast.warn('This course exists!', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
+            return;
         }
         else {
-            
+
             selectedCourses.forEach(item => {
                 totalPrice += item.price;
                 totalCredit = totalCredit + item.credit;
-                console.log(course.credit, 'inside foreach')
             })
             if (totalCredit > 20) {
-                return alert("you can not take more then 20 credit");
+                toast.warn("😢 Limited to 20 credits!",{
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
+                return;
             }
             else {
                 setPrice(totalPrice)
@@ -41,15 +60,10 @@ function App() {
             }
 
             setSelectedCourses([...selectedCourses, course]);
-            
+
         }
-        
-        console.log(totalCredit, 'totalc')
+
     }
-    console.log(credit,'state')
-    
-
-
 
 
 
@@ -68,7 +82,7 @@ function App() {
                     credit={credit}
                     creditRemain={creditRemain}
                 ></Cart>
-
+                <ToastContainer></ToastContainer>
             </div>
         </>
     )
