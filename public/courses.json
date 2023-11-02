@@ -2,7 +2,7 @@
     {
         "id": 1,
         "course_name": "Introduction to C Programming",
-        "credit": 3,
+        "credit": 4,
         "price": 200,
         "course_details": "Fundamental, teaching syntax, logic, and problem-solving crucial for software development.",
         "img": "https://imagizer.imageshack.com/img924/2442/VNm7oF.png"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "course_name": "Introduction to OOP Python",
-        "credit": 3,
+        "credit": 4,
         "price": 199,
         "course_details": "Object-Oriented Programming (OOP) in Python is essential for understanding code organization.",
         "img": "https://imagizer.imageshack.com/img924/824/jEGpTZ.png"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "course_name": "Problem-Solving Part",
-        "credit": 4,
+        "credit": 5,
         "price": 249,
         "course_details": "Problem-solving is essential in overcoming challenges, making informed decisions, achieving goals.",
         "img": "https://imagizer.imageshack.com/img923/7924/Ke7hnw.png"
