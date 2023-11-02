@@ -3,7 +3,7 @@
         "id": 1,
         "course_name": "Introduction to C Programming",
         "credit": 3,
-        "price": 199.99,
+        "price": 200,
         "course_details": "Fundamental, teaching syntax, logic, and problem-solving crucial for software development.",
         "img": "https://imagizer.imageshack.com/img924/2442/VNm7oF.png"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "course_name": "Introduction to Algorithms",
         "credit": 5,
-        "price": 299.99,
+        "price": 300,
         "course_details": "Fundamental, teaching problem-solving and efficient computation, the basis for computer science.",
         "img": "https://imagizer.imageshack.com/img923/4611/P40w7w.png"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "course_name": "Introduction to C++ for DSA",
         "credit": 4,
-        "price": 199.99,
+        "price": 199,
         "course_details": "C++ for DSA is crucial as it provides a strong foundation for data structures and algorithms.",
         "img": "https://imagizer.imageshack.com/img923/3269/udwUet.png"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "course_name": "Basic Data Structures",
         "credit": 3,
-        "price": 249.99,
+        "price": 249,
         "course_details": "Basic data structures, like arrays and linked lists, provide the foundation for efficient data organization.",
         "img": "https://imagizer.imageshack.com/img922/2495/I4yn4I.png"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "course_name": "Introduction to OOP Python",
         "credit": 3,
-        "price": 199.99,
+        "price": 199,
         "course_details": "Object-Oriented Programming (OOP) in Python is essential for understanding code organization.",
         "img": "https://imagizer.imageshack.com/img924/824/jEGpTZ.png"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "course_name": "Software Engineering",
         "credit": 5,
-        "price": 349.99,
+        "price": 349,
         "course_details": "Basic software engineering is essential for developing reliable, maintainable software systems.",
         "img": "https://imagizer.imageshack.com/img924/6804/IiXEm4.png"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "course_name": "AWS, Cloud Computing",
         "credit": 3,
-        "price": 199.99,
+        "price": 199,
         "course_details": "AWS knowledge empowers businesses to scale, enhance efficiency while reducing costs.",
         "img": "https://imagizer.imageshack.com/img922/1672/5RKP0h.png"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "course_name": "Database (MySQL)",
         "credit": 4,
-        "price": 299.99,
+        "price": 299,
         "course_details": "MySQL databases are fundamental for data storage and retrieval in web applications, ensuring data integrity.",
         "img": "https://imagizer.imageshack.com/img924/2096/elbXq4.png"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "course_name": "Problem-Solving Part",
         "credit": 4,
-        "price": 249.99,
+        "price": 249,
         "course_details": "Problem-solving is essential in overcoming challenges, making informed decisions, achieving goals.",
         "img": "https://imagizer.imageshack.com/img923/7924/Ke7hnw.png"
     }

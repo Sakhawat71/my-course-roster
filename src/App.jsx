@@ -7,47 +7,48 @@ import Header from './components/Header/Header'
 
 
 function App() {
-    
-    const [hrRemain ,setHrRemain] = useState(20);
-    const [courseNames,setCourseNames] = useState([]);
-    const [credit,setCredit] = useState(0);
-    const [price ,setPrice] = useState(0);
 
-    const handelSelect = (courseTitel,creditHr) =>{
-        const allCourseName= [...courseNames,courseTitel]
-        setCourseNames(allCourseName);
-        
-        const newCredit = credit + creditHr;
-        setCredit(newCredit)
+    // const [hrRemain ,setHrRemain] = useState(20);
+    // const [courseNames,setCourseNames] = useState([]);
+    const [price, setPrice] = useState(0);
+    const [selectedCourses, setSelectedCourses] = useState([]);
 
-        const newHr = hrRemain - creditHr;
-        setHrRemain(newHr);
+    const handelSelect = (course) => {
+        const isExist = selectedCourses.find(item => item.id === course.id);
+        console.log(course.price)
+        let totalPrice = course.price;
+
+        if (isExist) {
+            return alert('exist');
+        }
+        else {
+            setSelectedCourses([...selectedCourses, course]);
+        }
+        selectedCourses.forEach(item => {
+            totalPrice += item.price;
+        })
+        setPrice(totalPrice)
     }
-    const sumOfPrice = (getPrice) => {
-        const newPrice = price + getPrice;
-        setPrice(newPrice);
-    }
-    
-    
-    // console.log(price);
+
+
+
+
 
 
     return (
         <>
             <Header></Header>
-            <div className='md:flex max-w-7xl mx-auto md:mx-10 gap-5'>
-                
-                <Courses 
-                handelSelect={handelSelect}
-                sumOfPrice={sumOfPrice}
+            <div className='md:flex max-w-7xl mx-auto md:mx-10 gap-5 mb-20'>
+
+                <Courses
+                    handelSelect={handelSelect}
+
                 ></Courses>
 
 
-                <Cart 
-                price={price}
-                courseNames={courseNames}
-                credit={credit}
-                hrRemain={hrRemain}
+                <Cart
+                    courses={selectedCourses}
+                    price={price}
                 ></Cart>
 
             </div>
