@@ -7,17 +7,21 @@ import Header from './components/Header/Header'
 
 
 function App() {
-
+    
+    const [hrRemain ,setHrRemain] = useState(20);
     const [courseNames,setCourseNames] = useState([]);
     const [credit,setCredit] = useState(0);
     const [price ,setPrice] = useState(0);
 
-    const handelSelect = (courseTitel,courseCredit) =>{
+    const handelSelect = (courseTitel,creditHr) =>{
         const allCourseName= [...courseNames,courseTitel]
         setCourseNames(allCourseName);
         
-        const newCredit = credit + courseCredit;
+        const newCredit = credit + creditHr;
         setCredit(newCredit)
+
+        const newHr = hrRemain - creditHr;
+        setHrRemain(newHr);
     }
     const sumOfPrice = (getPrice) => {
         const newPrice = price + getPrice;
@@ -43,6 +47,7 @@ function App() {
                 price={price}
                 courseNames={courseNames}
                 credit={credit}
+                hrRemain={hrRemain}
                 ></Cart>
 
             </div>
