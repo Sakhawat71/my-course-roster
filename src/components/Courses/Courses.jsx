@@ -13,11 +13,10 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
 
-    // console.log(courses)
+
 
     return (
-        <div>
-            <h2>{courses.length}</h2>
+        <div className="grid mx-auto md:gap-3 md:grid-cols-2 lg:grid-cols-3 w-9/12">
             {
                 courses.map((course, idx) =>
                     <Course key={idx}

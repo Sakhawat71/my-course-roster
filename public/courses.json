@@ -4,7 +4,7 @@
         "course_name": "Introduction to C Programming",
         "credit": 3,
         "price": 199.99,
-        "course_details": "Introduction to C Programming is fundamental, teaching syntax, logic, and problem-solving crucial for software development and understanding programming concepts.",
+        "course_details": "Fundamental, teaching syntax, logic, and problem-solving crucial for software development.",
         "img": "https://imagizer.imageshack.com/img924/2442/VNm7oF.png"
     },
     {
@@ -12,7 +12,7 @@
         "course_name": "Introduction to Algorithms",
         "credit": 4,
         "price": 299.99,
-        "course_details": "Introduction to Algorithms is fundamental, teaching problem-solving and efficient computation, forming the basis for computer science and problem-solving skills.",
+        "course_details": "Fundamental, teaching problem-solving and efficient computation, the basis for computer science.",
         "img": "https://imagizer.imageshack.com/img923/4611/P40w7w.png"
     },
     {
@@ -20,7 +20,7 @@
         "course_name": "Introduction to C++ for DSA",
         "credit": 3,
         "price": 199.99,
-        "course_details": "Introduction to C++ for DSA is crucial as it provides a strong foundation for data structures and algorithms, enabling efficient problem-solving and software development.",
+        "course_details": "C++ for DSA is crucial as it provides a strong foundation for data structures and algorithms.",
         "img": "https://imagizer.imageshack.com/img923/3269/udwUet.png"
     },
     {
@@ -28,7 +28,7 @@
         "course_name": "Basic Data Structures",
         "credit": 3,
         "price": 249.99,
-        "course_details": "Basic data structures, like arrays and linked lists, provide the foundation for efficient data organization and retrieval in computer science, enabling algorithm design and problem-solving.",
+        "course_details": "Basic data structures, like arrays and linked lists, provide the foundation for efficient data organization.",
         "img": "https://imagizer.imageshack.com/img922/2495/I4yn4I.png"
     },
     {
@@ -36,7 +36,7 @@
         "course_name": "Introduction to OOP Python",
         "credit": 3,
         "price": 199.99,
-        "course_details": "A basic introduction to Object-Oriented Programming (OOP) in Python is essential for understanding code organization, reusability, and building complex, maintainable software applications.",
+        "course_details": "Object-Oriented Programming (OOP) in Python is essential for understanding code organization.",
         "img": "https://imagizer.imageshack.com/img924/824/jEGpTZ.png"
     },
     {
@@ -44,7 +44,7 @@
         "course_name": "Software Engineering",
         "credit": 5,
         "price": 349.99,
-        "course_details": "Basic software engineering is essential for developing reliable, maintainable, and scalable software systems. It provides structure, quality control, and methodology for efficient and successful software development.",
+        "course_details": "Basic software engineering is essential for developing reliable, maintainable software systems.",
         "img": "https://imagizer.imageshack.com/img924/6804/IiXEm4.png"
     },
     {
@@ -52,7 +52,7 @@
         "course_name": "AWS, Cloud Computing",
         "credit": 3,
         "price": 199.99,
-        "course_details": "Basic AWS and cloud computing knowledge empowers businesses to scale, innovate, and enhance efficiency while reducing costs, enabling flexibility, security, and global accessibility in the digital era.",
+        "course_details": "AWS knowledge empowers businesses to scale, enhance efficiency while reducing costs.",
         "img": "https://imagizer.imageshack.com/img922/1672/5RKP0h.png"
     },
     {
@@ -60,7 +60,7 @@
         "course_name": "Database (MySQL)",
         "credit": 4,
         "price": 299.99,
-        "course_details": "Basic MySQL databases are fundamental for data storage and retrieval in web applications, ensuring data integrity and efficient management, serving as a cornerstone of modern information systems.",
+        "course_details": "MySQL databases are fundamental for data storage and retrieval in web applications, ensuring data integrity.",
         "img": "https://imagizer.imageshack.com/img924/2096/elbXq4.png"
     },
     {
@@ -68,7 +68,7 @@
         "course_name": "Problem-Solving Part",
         "credit": 4,
         "price": 249.99,
-        "course_details": "Problem-solving is essential in overcoming challenges, making informed decisions, and achieving goals. It fosters critical thinking, innovation, and resilience, enabling progress and success in various aspects of life.",
+        "course_details": "Problem-solving is essential in overcoming challenges, making informed decisions, achieving goals.",
         "img": "https://imagizer.imageshack.com/img923/7924/Ke7hnw.png"
     }
 ]
