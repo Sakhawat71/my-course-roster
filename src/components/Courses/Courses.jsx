@@ -1,10 +1,9 @@
-// import PropTypes from 'prop-types';
-
+import PropTypes from 'prop-types';
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({handelSelect,sumOfPrice}) => {
 
     const [courses, setCourses] = useState([]);
     useEffect(() => {
@@ -21,6 +20,8 @@ const Courses = () => {
                 courses.map((course, idx) =>
                     <Course key={idx}
                     course={course}
+                    handelSelect={handelSelect}
+                    sumOfPrice={sumOfPrice}
                 ></Course>)
             }
         </div>
@@ -28,7 +29,8 @@ const Courses = () => {
 };
 
 Courses.propTypes = {
-
+    handelSelect: PropTypes.func,
+    sumOfPrice: PropTypes.func,
 };
 
 export default Courses;

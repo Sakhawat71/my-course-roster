@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import { FiDollarSign, FiBookOpen } from 'react-icons/fi';
 
 
-const Course = ({ course }) => {
+const Course = ({ course ,handelSelect ,sumOfPrice}) => {
     const { img, course_name, course_details, price, credit } = course;
 
-    console.log(course)
+    // console.log(course)
     return (
         <div className='border-2 p-3 relative h-[380px] md:h-[400px] lg:h-[385px] bg-white rounded-xl  space-y-2'>
             <figure>
@@ -22,7 +22,12 @@ const Course = ({ course }) => {
             </div>
             <br />
 
-            <button  className='absolute inset-x-0 bottom-2 rounded-lg w-11/12 mx-auto py-2 my-2 text-white bg-[#2F80ED]'>Select</button>
+            <button 
+            onClick={()=> {
+                handelSelect(course_name,price);
+                sumOfPrice(price)
+            }} 
+            className='absolute inset-x-0 bottom-2 rounded-lg w-11/12 mx-auto py-2 my-2 text-white bg-[#2F80ED]'>Select</button>
 
         </div>
     );
@@ -30,6 +35,8 @@ const Course = ({ course }) => {
 
 Course.propTypes = {
     course: PropTypes.object.isRequired,
+    handelSelect: PropTypes.func,
+    sumOfPrice : PropTypes.func,
 };
 
 export default Course;
